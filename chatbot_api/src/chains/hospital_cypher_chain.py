@@ -170,3 +170,5 @@ hospital_cypher_chain = GraphCypherQAChain.from_llm(
 question = """What is the average visit duration for
 emergency visits in North Carolina?"""
 response = hospital_cypher_chain.invoke(question)
+
+print(response)
