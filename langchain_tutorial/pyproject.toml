@@ -1,0 +1,12 @@
+[project]
+name="langchain_tutorial"
+version="0.1"
+dependencies = [
+   "langchain_google_genai",
+   "langchain-core",
+   "python-dotenv",
+   "langserve[all]",
+]
+
+[project.optional-dependencies]
+dev = ["black", "flake8"]
