@@ -1,0 +1,17 @@
+asyncio
+fastapi
+langchain
+langchain-openai
+langchainhub
+neo4j
+numpy
+openai
+opentelemetry-api
+pydantic
+uvicorn
+transformers
+langchain-google-genai
+
+[dev]
+black
+flake8
